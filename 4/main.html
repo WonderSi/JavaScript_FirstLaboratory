@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск студентов по направлению</title>
+    <style>
+        #MyButton
+        {
+            width: 100px;
+            height: 21px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <label for="directionCode">Введите код направления: </label>
+    <input type="text" id="directionCode" placeholder="Например, A100">
+    <button id="MyButton" onclick="findStudents()">Найти!</button>
+
+    <div id="output"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

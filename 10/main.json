@@ -1,0 +1,21 @@
+{
+    "lastName": "Артемов",
+    "firstName": "Артем",
+    "middleName": "Артемович",
+    "birthYear": 1900,
+    "grade": 8,
+    "favoriteSubjects": ["Математика", "Русский", "Информатика"],
+    "studyDuration": 11,
+    "registrationAddress": {
+        "country": "Россия",
+        "city": "Кемерово",
+        "houseNumber": 25,
+        "apartmentNumber": 12
+    },
+    "residentialAddress": {
+        "country": "Россия",
+        "city": "Кемерово",
+        "houseNumber": 30,
+        "apartmentNumber": 8
+    }
+}
